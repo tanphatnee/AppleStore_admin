@@ -1,0 +1,108 @@
+/* styles.css */
+
+*{
+  text-align: center;
+}
+nav {
+  background-color: #b5a0a0;
+  color: #fff;
+  
+}
+
+nav ul {
+  height: 50px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+justify-content: center;
+gap: 100px;
+
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.imgFile {
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  margin: 0 5px;
+
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.pagination__link--disabled {
+  cursor: not-allowed;
+  color: #999;
+}
+
+.pagination__link--active {
+  background-color: #007bff;
+  color: #fff;
+  border: 1px solid #007bff;
+}
+
+.add-product-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-product-container h2 {
+  margin-bottom: 20px;
+}
+
+.add-product-container div {
+  margin-bottom: 10px;
+}
+
+.add-product-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.add-product-container input[type="text"],
+.add-product-container textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.add-product-container button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-product-container button:hover {
+  background-color: #45a049;
+}
+
